@@ -9,10 +9,180 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- manrope google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-manrope {
+        font-family: 'Manrope', sans-serif;
+      }
+    </style>
     <title>hockeys_third_assignment</title>
   </head>
-  <body>
-    <header class="bg-yellow-400"><h1>this teailwind assignmnet</h1></header>
+  <body class="font-manrope">
+    <header class=" max-w-screen-lg m-auto">
+      <!-- navbar -->
+      <section class="mt-14">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+            </div>
+            <a class="btn-ghost text-4xl font-extrabold"
+              >Hockey<span class="text-[#FF4240]">’</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="text-[#FF4240]">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+              <button class="btn btn-ghost btn-circle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <a class="btn bg-[#FF4240] text-xl text-white">Get Ticket </a>
+          </div>
+        </div>
+      </section>
+      <!-- carousel starts-->
+      <div class="carousel w-full mt-12">
+        <div id="slide1" class="carousel-item relative w-full rounded-xl bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/1.png)] h-[50vh] ">
+         <div> <div class="w-[502px] h-[140px] bg-black text-white rounded-2xl p-4 transform translate-x-[490px] translate-y-[300px]">
+          <h2 class="w-[90%] text-2xl font-extrabold">Meet all the heroes from the field</h2>
+        <p class="mt-4">Encounter field heroes, where passion and skill collide, creating inspiring tales of sportsmanship and triumph on display</p>
+      </div>
+    </div>
+          
+          <div class="absolute flex gap-3 transform -translate-y-1/2 left-10 right-5 bottom-2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class=" carousel-item relative w-full rounded-xl bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/4.png)] h-[50vh] ">
+         <div class="flex justify-center">
+          <div>
+             <div class="w-[502px] h-[140px] bg-black text-white rounded-2xl p-4 transform translate-x-[490px] translate-y-[300px]">
+            <h2 class="w-[90%] text-2xl font-extrabold">Meet all the heroes from the field</h2>
+          <p class="mt-4">Encounter field heroes, where passion and skill collide, creating inspiring tales of sportsmanship and triumph on display</p>
+        </div>
+      </div>
+    </div>
+          
+          <div class="absolute flex gap-3 transform -translate-y-1/2 left-10 right-5 bottom-2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>  
+      </div>
+      <!-- carousel end -->
+      <section>
+        <div><h1 class=" text-center text-4xl font-extrabold mt-32 ">Professional Hockeys Club</h1>
+        <p class="text-center m-auto w-[65%] text-base mt-6" >Premier professional hockey club with a rich history, top-notch players, state-of-the-art facilities, and a passionate fan base. Excellence defines us.</p></div>
+      </section>
+      <!-- progress bar stars-->
+      <section class="mt-12" >
+        <div class="flex gap-6 w-[95%] m-auto">
+          <div class="w-[50%] ">
+            <div class="radial-progress text-[#FF4240] left-16  transform rotate-[170deg]" style="--value:87;" role="progressbar"><span class="transform rotate-[-170deg] text-black">87%</span></div>
+            <h2 class="mt-6 text-xl font-semibold text-center  ">Prayer Facility</h2>
+            <p class="pt-4 text-center text-slate-600 text-base">Dedicated space for peaceful moments of prayer</p>
+          </div>
+          
+          <div class="w-[50%]">
+            <div class="radial-progress text-[#49D293] left-16 transform rotate-[170deg]" style="--value:95;" role="progressbar"> <span class="transform rotate-[-170deg] text-black">95%</span></div>
+            <h2 class="mt-6 text-xl font-semibold text-center ">Experienced Coach</h2>
+            <p class="pt-4 text-center text-slate-600 text-base">Seasoned coach with a wealth of expertise.</p>
+          </div>
+          
+          <div class="w-[50%] ">
+            <div class="radial-progress text-[#FFB546] left-16 transform rotate-[170deg]" style="--value:90;" role="progressbar"><span class="transform rotate-[-170deg] text-black">90%</span></div>
+            <h2 class="mt-6 text-xl font-semibold text-center">Senior Player</h2>
+            <p class="pt-4 text-center text-slate-600 text-base">Veteran athlete with years of exceptional performance.</p>
+          </div>
+          
+          <div class="w-[50%]">
+            <div class="radial-progress text-[#4C8DF1] transform rotate-[170deg] left-16" style="--value:80;" role="progressbar"><span class="transform rotate-[-170deg] text-black">80%</span></div>
+            <h2 class="mt-6 text-xl font-semibold text-center">Training Ground</h2>
+            <p class="pt-4 text-center text-slate-600 text-base">Premier facility for focused and rigorous training.</p>
+          </div>
+        </div>
+        
+       
+      </section>
+      <!-- progress bar ends -->
+
+      <!-- program section starts -->
+      <section>
+        <div><h1 class=" text-center text-4xl font-extrabold mt-32 ">Our New Products</h1>
+        <p class="text-center m-auto w-[65%] text-base mt-6" >Explore our latest collection of innovative and high-quality products, featuring cutting-edge designs and advanced technology. Elevate your lifestyle with excellence.</p></div>
+        <div class="flex gap-6">
+          <div>
+            <div class="card w-[100%] bg-base-100 shadow-xl image-full">
+            <figure><img src="./Images/2.png" alt="Shoes" /></figure>
+            <div class="card-body mt-12">
+              <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
+              <p class=" text-white text-base">Nurturing young talents through a comprehensive junior program, fostering skills, teamwork, and a passion for the sport. Join the journey!</p>
+              <div class="card-actions ">
+                <a class="btn bg-[#FF4240] text-xl text-white border-none">Register Now! </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="card w-[100%] bg-base-100 shadow-xl image-full">
+            <figure><img src="./Images/2.png" alt="Shoes" /></figure>
+            <div class="card-body mt-12">
+              <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
+              <p class=" text-white text-base">Nurturing young talents through a comprehensive junior program, fostering skills, teamwork, and a passion for the sport. Join the journey!</p>
+              <div class="card-actions ">
+                <a class="btn bg-[#FF4240] text-xl text-white border-none">Register Now! </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- program section end -->
+    </header>
     <main></main>
     <footer></footer>
   </body>
