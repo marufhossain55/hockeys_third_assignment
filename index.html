@@ -26,7 +26,7 @@
   <body class="font-manrope">
     <header class=" max-w-screen-lg m-auto ">
       <!-- navbar -->
-      <section class="mt-14 ">
+      <section class="lg:mt-14 mt-4 ">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -47,7 +47,7 @@
                 </svg>
               </div>
             </div>
-            <a class="btn-ghost text-4xl font-extrabold"
+            <a class="btn-ghost lg:text-4xl text-3xl font-extrabold"
               >Hockey<span class="text-[#FF4240]">’</span>s</a
             >
           </div>
@@ -78,45 +78,52 @@
                 </svg>
               </button>
             </div>
-            <a class="btn bg-[#FF4240] text-xl text-white sm:text-base sm:py-1 sm:px-1">Get Ticket </a>
+            <a class="btn bg-[#FF4240] text-xl text-white py-1 px-1">Get Ticket </a>
           </div>
         </div>
       </section>
       <!-- navbar-end -->
 
       <!-- carousel starts-->
-      <div class="carousel w-full mt-12">
-        <div id="slide1" class="carousel-item relative w-full rounded-xl bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/1.png')] h-[50vh] ">
-         <div> <div class="w-[502px] h-[140px] bg-black text-white rounded-2xl p-4 transform translate-x-[490px] translate-y-[300px]">
+      <div class="carousel lg:w-full lg:mt-12 mt-6 w-[95%] ml-[11px] lg:ml-0 ">
+        <div id="slide1" class="carousel-item relative w-full rounded-xl bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/1.png')] lg:h-[50vh] h-[200px]  ">
+         <div> <div class=" lg:w-[502px] lg:h-[140px] bg-black text-white rounded-2xl p-4 transform translate-y-[320px] translate-x-[490px]">
           <h2 class="w-[90%] text-2xl font-extrabold">Meet all the heroes from the field</h2>
         <p class="mt-4">Encounter field heroes, where passion and skill collide, creating inspiring tales of sportsmanship and triumph on display</p>
       </div>
     </div>
           
-          <div class="absolute flex gap-3 transform -translate-y-1/2 left-10 right-5 bottom-2">
+          <div class="absolute flex gap-3 transform -translate-y-1/2 lg:left-10 lg:right-5 lg:bottom-2 left-[7.5rem] right-5 bottom-[-1rem]">
             <a href="#slide2" class="btn btn-circle">❮</a> 
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div> 
-        <div id="slide2" class=" carousel-item relative w-full rounded-xl bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/4.png')] h-[50vh] ">
+        <div id="slide2" class=" carousel-item relative w-full rounded-xl bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/4.png')] lg:h-[50vh] ">
          <div class="flex justify-center">
           <div>
-             <div class="w-[502px] h-[140px] bg-black text-white rounded-2xl p-4 transform translate-x-[490px] translate-y-[300px]">
+             <div class=" lg:w-[502px] lg:h-[140px] bg-black text-white rounded-2xl p-4 transform translate-y-[320px] translate-x-[490px]"">
             <h2 class="w-[90%] text-2xl font-extrabold">Meet all the heroes from the field</h2>
           <p class="mt-4">Encounter field heroes, where passion and skill collide, creating inspiring tales of sportsmanship and triumph on display</p>
         </div>
       </div>
     </div>
           
-          <div class="absolute flex gap-3 transform -translate-y-1/2 left-10 right-5 bottom-2">
+          <div class="absolute flex  mr-10 gap-3 transform -translate-y-1/2lg:left-10 lg:right-5 lg:bottom-2 left-[7.5rem] right-5 bottom-[1rem]">
             <a href="#slide1" class="btn btn-circle">❮</a> 
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
         </div>  
       </div>
+      <div>
+        <div class="w-[390px] h-[140px] bg-black text-white rounded-2xl p-4 m-auto mt-4 lg:hidden">
+          <h2 class="w-[90%] text-base font-extrabold">Meet all the heroes from the field</h2>
+        <p class="mt-4">Encounter field heroes, where passion and skill collide, creating inspiring tales of sportsmanship and triumph on display</p>
+      </div>
+      </div>
       <!-- carousel end -->
+      
       <section>
-        <div class="divider mt-24"></div> 
+        <div class="divider lg:mt-24 mt-12"></div> 
         <div><h1 class="lg:block sm:block text-center text-2xl lg:text-4xl sm:text-base font-extrabold ">Professional Hockeys Club</h1>
         <p class="text-center m-auto w-[65%] text-base mt-6" >Premier professional hockey club with a rich history, top-notch players, state-of-the-art facilities, and a passionate fan base. Excellence defines us.</p></div>
         <div class="divider"></div> 
@@ -165,24 +172,24 @@
       <div class="divider "></div> 
       <div class="flex lg:gap-6 lg:mt-20 flex-col lg:flex-row gap-6 ">
         <div>
-          <div class="card lg:w-[100%] w-[90%] bg-base-100 shadow-xl image-full md:hidden m-auto">
-          <figure><img src="./Images/2.png" alt="Shoes" /></figure>
-          <div class="card-body mt-12">
-            <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
-            <p class=" text-white text-base">Nurturing young talents through a comprehensive junior program, fostering skills, teamwork, and a passion for the sport. Join the journey!</p>
-            <div class="card-actions ">
-              <a class="btn bg-[#FF4240] text-xl text-white border-none">Register Now! </a>
+          <div class="card lg:w-[100%] w-[90%] bg-base-100 shadow-xl image-full m-auto">
+            <figure><img src="./images/2.png" alt="playing" /></figure>
+            <div class="card-body mt-12">
+              <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
+              <p class=" text-white text-base pt-5">Our Junior Program is designed for aspiring young players. Join us for a blend of fun, skill development,  fostering a lifelong love for hockey community.</p>
+              <div class="card-actions ">
+                <a class="btn bg-[#FF4240] text-xl text-white border-none">Register Now! </a>
+              </div>
             </div>
           </div>
-        </div>
       </div>
       <div>
         <div>
           <div class="card lg:w-[100%] w-[90%] bg-base-100 shadow-xl image-full m-auto">
-          <figure><img src="./images/3.png" alt="Shoes" /></figure>
+          <figure><img src="./images/3.png" alt="playing" /></figure>
           <div class="card-body mt-12">
-            <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
-            <p class=" text-white text-base">Nurturing young talents through a comprehensive junior program, fostering skills, teamwork, and a passion for the sport. Join the journey!</p>
+            <h2 class="text-3xl text-white font-extrabold">Teenager Program</h2>
+            <p class=" text-white text-base">Engage in our dynamic Teenager Program, blending skill development and camaraderie. Elevate your game with expert coaching and a supportive community.</p>
             <div class="card-actions ">
               <a class="btn bg-[#FF4240] text-xl text-white border-none">Register Now! </a>
             </div>
@@ -194,10 +201,10 @@
       <div>
         <div>
           <div class="card w-[90%]  lg:w-[100%] bg-base-100 shadow-xl image-full mt-6 m-auto" >
-          <figure><img src="./Images/4.png" alt="Shoes" /></figure>
+          <figure><img src="./Images/4.png" alt="players" /></figure>
           <div class="card-body lg:mt-40">
-            <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
-            <p class=" text-white text-base w-[60%]">Nurturing young talents through a comprehensive junior program, fostering skills, teamwork, and a passion for the sport. Join the journey!</p>
+            <h2 class="text-3xl text-white font-extrabold">Professional Program</h2>
+            <p class=" text-white text-base lg:w-[60%] w-[80%]">Refine your skills in our Professional Program. Tailored coaching, advanced training, and a competitive environment for aspiring and elite players. Elevate your game today.</p>
             <div class="card-actions ">
               <a class="btn bg-[#FF4240] text-xl text-white border-none">Register Now! </a>
             </div>
@@ -519,12 +526,12 @@
       </section>
       <!-- social section end -->
     </main>
-    <footer class="m-auto bg-black text-[rgba(255,255,255,0.60)] mt-24 lg:h-[30rem] h-[70rem]">
+    <footer class="m-auto bg-black text-[rgba(255,255,255,0.60)] lg:mt-24 mt-12 lg:h-[30rem] h-[70rem]">
      <div  class=" max-w-screen-lg m-auto">
       <div class=" flex justify-between flex-col lg:flex-row ml-14 lg:ml-0">
         <div class="ml-10 lg:ml-0">
           <h1 class="text-3xl font-extrabold text-white mt-24">Get In Touch</h1>
-        <p class="mt-4">Ready to connect? Get in touch with <br> us for inquiries, support, or <br> collaboration. We look forward to <br> hearing from you!</p>
+        <p class="mt-4 ">Ready to connect? Get in touch with <br> us for inquiries, support, or <br> collaboration. We look forward to <br> hearing from you!</p>
         <div class="inline-flex gap-3 mt-6">
           <img src="./Images/footer (2).png" alt="">
           <p class=" text-white">hockeys@support.com</p></div>
