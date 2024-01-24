@@ -24,9 +24,9 @@
     <title>hockeys_third_assignment</title>
   </head>
   <body class="font-manrope">
-    <header class=" max-w-screen-lg m-auto">
+    <header class=" max-w-screen-lg m-auto ">
       <!-- navbar -->
-      <section class="mt-14">
+      <section class="mt-14 ">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -61,7 +61,7 @@
             </ul>
           </div>
           <div class="navbar-end">
-              <button class="btn btn-ghost btn-circle">
+              <button class="btn btn-ghost btn-circle hidden md:block lg:block">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -78,12 +78,14 @@
                 </svg>
               </button>
             </div>
-            <a class="btn bg-[#FF4240] text-xl text-white">Get Ticket </a>
+            <a class="btn bg-[#FF4240] text-xl text-white sm:text-base sm:py-1 sm:px-1">Get Ticket </a>
           </div>
         </div>
       </section>
+      <!-- navbar-end -->
+
       <!-- carousel starts-->
-      <div class="carousel w-full mt-12">
+      <div class="carousel w-full mt-12 hidden">
         <div id="slide1" class="carousel-item relative w-full rounded-xl bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/1.png)] h-[50vh] ">
          <div> <div class="w-[502px] h-[140px] bg-black text-white rounded-2xl p-4 transform translate-x-[490px] translate-y-[300px]">
           <h2 class="w-[90%] text-2xl font-extrabold">Meet all the heroes from the field</h2>
@@ -115,13 +117,13 @@
       <!-- carousel end -->
       <section>
         <div class="divider mt-24"></div> 
-        <div><h1 class=" text-center text-4xl font-extrabold ">Professional Hockeys Club</h1>
+        <div><h1 class="lg:block sm:block text-center text-2xl lg:text-4xl sm:text-base font-extrabold ">Professional Hockeys Club</h1>
         <p class="text-center m-auto w-[65%] text-base mt-6" >Premier professional hockey club with a rich history, top-notch players, state-of-the-art facilities, and a passionate fan base. Excellence defines us.</p></div>
         <div class="divider"></div> 
       </section>
       <!-- progress bar stars-->
       <section class="mt-12" >
-        <div class="flex gap-6 w-[95%] m-auto">
+        <div class=" flex lg:flex-row lg:gap-6 lg:w-[95%] w-full m-auto flex-col items-center justify-center gap-10 ">
           <div class="w-[50%] ">
             <div class="radial-progress text-[#FF4240] left-16  transform rotate-[170deg]" style="--value:87;" role="progressbar"><span class="transform rotate-[-170deg] text-black">87%</span></div>
             <h2 class="mt-6 text-xl font-semibold text-center  ">Prayer Facility</h2>
@@ -151,19 +153,19 @@
       </section>
       <!-- progress bar ends -->
 
-  
     </header>
+
     <main class=" max-w-screen-lg m-auto">
 
     <!-- program section starts -->
     <section>
       <div class="divider mt-24"></div> 
-      <div><h1 class=" text-center text-4xl font-extrabold ">Program Sections</h1>
+      <div><h1 class=" text-center text-3xl lg:text-4xl font-extrabold ">Program Sections</h1>
       <p class="text-center m-auto w-[65%] text-base mt-6" >Explore our diverse program sections designed for all skill levels. From beginner-friendly sessions to advanced training, there's something for everyone.</p></div>
       <div class="divider "></div> 
-      <div class="flex gap-6 mt-20">
+      <div class="flex lg:gap-6 lg:mt-20 flex-col lg:flex-row gap-6 ">
         <div>
-          <div class="card w-[100%] bg-base-100 shadow-xl image-full">
+          <div class="card lg:w-[100%] w-[90%] bg-base-100 shadow-xl image-full md:hidden m-auto">
           <figure><img src="./Images/2.png" alt="Shoes" /></figure>
           <div class="card-body mt-12">
             <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
@@ -176,7 +178,7 @@
       </div>
       <div>
         <div>
-          <div class="card w-[100%] bg-base-100 shadow-xl image-full">
+          <div class="card lg:w-[100%] w-[90%] bg-base-100 shadow-xl image-full m-auto">
           <figure><img src="./Images/3.png" alt="Shoes" /></figure>
           <div class="card-body mt-12">
             <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
@@ -191,9 +193,9 @@
       </div>
       <div>
         <div>
-          <div class="card w-[100%] bg-base-100 shadow-xl image-full mt-6">
+          <div class="card w-[90%]  lg:w-[100%] bg-base-100 shadow-xl image-full mt-6 m-auto" >
           <figure><img src="./Images/4.png" alt="Shoes" /></figure>
-          <div class="card-body mt-40">
+          <div class="card-body lg:mt-40">
             <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
             <p class=" text-white text-base w-[60%]">Nurturing young talents through a comprehensive junior program, fostering skills, teamwork, and a passion for the sport. Join the journey!</p>
             <div class="card-actions ">
@@ -208,14 +210,14 @@
 
 
 
-    <div class="divider mt-24"></div> 
+    <div class="divider lg:mt-24 mt-9"></div> 
     <div><h1 class=" text-center text-4xl font-extrabold ">Our New Products</h1>
     <p class="text-center m-auto w-[65%] text-base mt-6" >Discover innovation and style with our new products. Unmatched quality, cutting-edge designs, and functionality—experience excellence in every detail. Elevate your lifestyle today.</p></div>
     <div class="divider "></div> 
 
        <!-- grid part starts  -->
-       <div class="grid grid-cols-2 gap-4 mt-12">
-        <div class="flex border-2 rounded-2xl">
+       <div class="grid lg:grid-cols-2 lg:gap-4 gap-4 mt-12">
+        <div class="flex border-2 rounded-2xl w-[90%] m-auto">
         <div class="m-auto w-[50%]">
           <img class="ml-6 w-[80%] " src="./Images/5.png" alt="">
         </div>
@@ -517,7 +519,7 @@
       </section>
       <!-- social section end -->
     </main>
-    <footer class="m-auto bg-black text-[rgba(255,255,255,0.60)] mt-24 h-[30rem]">
+    <footer class=" hidden m-auto bg-black text-[rgba(255,255,255,0.60)] mt-24 h-[30rem]">
      <div  class=" max-w-screen-lg m-auto">
       <div class=" flex justify-between  ">
         <div>
